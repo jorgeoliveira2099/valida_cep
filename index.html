@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Busca Cep</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+    <script type="text/javascript" src="jquery.maskedinput-1.1.4.pack.js"/></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<br>
+<div class="container">
+    <h3>Busca CEP</h3>
+    <p>Insira o CEP para que possamos passar de forma automática as demais informações</p>
+    <label>CEP:</label><br>
+        <input type="text" id="txtCep" onclick="soNumeros('#txtCep')" maxlength="8" id="txtCep" /><br>
+    <label>Cidade:</label><br>
+        <input type="text" id="txtCidade"/><br>
+    <label>Estado:</label><br>
+        <input type="text" id="txtEstado"/><br>
+    <label>Bairro:</label><br>
+        <input type="text" id="txtBairro"/><br>
+    <label>Rua:</label><br>
+        <input type="text" id="txtRua"/><br>
+    <label>Complemento:</label><br>
+        <input type="text"  required id="txtComplemento"/><br>
+    
+    </div>
+    
+</body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+</html>
